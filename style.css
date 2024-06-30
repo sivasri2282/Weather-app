@@ -116,7 +116,7 @@ body {
     }
 
     .search {
-        flex-direction: row;
+        flex-direction: col;
     }
 
     .search input {
