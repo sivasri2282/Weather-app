@@ -73,7 +73,7 @@
                 let f=(9/5*c)+32
 
             document.querySelector(".city").innerHTML=data.name;
-            document.querySelector(".temp").innerHTML=c + "°c" +"<br> "+ f + "°f";
+            document.querySelector(".temp").innerHTML=c + "°c" +" <br>" + f + "°f";
             document.querySelector(".humidity").innerHTML=data.main.humidity + "%";
             document.querySelector(".wind").innerHTML=data.wind.speed + "km/h";
             if(data.weather[0].main=="Clouds"){
